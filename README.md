@@ -1,2 +1,2 @@
 # emacs-tmux
-quick copy&amp;paste code snippet from emacs to tmux
+quick copy&paste code snippet from emacs to R run in tmux
