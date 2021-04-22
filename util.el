@@ -10,3 +10,7 @@
   (if body
       `(catch '37_04_18_101335
          (while t ,@body))))
+
+(setq wk.obarray [])
+(defun wk.intern (string1 &optional wk.obarray)
+  (intern string1 wk.obarray))
