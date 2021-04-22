@@ -6,3 +6,7 @@
 ;; (wk.eval-return (wk.return))
 ;; (wk.eval-return (if t (wk.return '("a" 1))))
 ;; (wk.eval-return (if nil (wk.return '("a" 1))) (message "37_04_18_104329"))
+(defmacro wk.repeat (&rest body)
+  (if body
+      `(catch '37_04_18_101335
+         (while t ,@body))))
